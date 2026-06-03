@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>抗老化完整课 · PPT 合集</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+    background: #0d0d0d;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px 80px;
+  }
+  .header {
+    text-align: center;
+    max-width: 640px;
+    margin-bottom: 48px;
+  }
+  .header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    background: linear-gradient(135deg, #c4a574, #e8d5b7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 12px;
+  }
+  .header p {
+    color: #808080;
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    max-width: 1060px;
+    width: 100%;
+  }
+  .card {
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    border-radius: 16px;
+    padding: 32px 28px 28px;
+    transition: border-color 0.25s, transform 0.25s;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+  }
+  .card:hover {
+    border-color: #c4a574;
+    transform: translateY(-2px);
+  }
+  .card .tag {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin-bottom: 16px;
+    width: fit-content;
+  }
+  .tag-ink     { background: #1a2a1a; color: #7ab87a; }
+  .tag-ink2    { background: #2a1a1a; color: #b87a7a; }
+  .tag-swiss   { background: #1a1a2a; color: #7a7ab8; }
+  .card h3 {
+    font-size: 1.12rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .card .desc {
+    font-size: 0.82rem;
+    color: #909090;
+    line-height: 1.7;
+    flex: 1;
+  }
+  .card .arrow {
+    margin-top: 20px;
+    color: #c4a574;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  .footer {
+    margin-top: 64px;
+    color: #555;
+    font-size: 0.78rem;
+  }
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>抗老化完整课 · PPT</h1>
+    <p>力量训练 × 超慢跑 × 营养配合<br>三个版本，三种风格，点击卡片进入全屏浏览</p>
+  </div>
+
+  <div class="cards">
+    <a class="card" href="v1-ink/">
+      <span class="tag tag-ink">墨水经典 · 墨绿</span>
+      <h3>抗老化完整课 · 力量训练×超慢跑×营养配合</h3>
+      <p class="desc">电子杂志 × 电子墨水风格，衬线字体 + 流体背景 + 暖色调。适合沉稳大气的正式分享场景。</p>
+      <span class="arrow">进入浏览 →</span>
+    </a>
+
+    <a class="card" href="v2-ink-dark/">
+      <span class="tag tag-ink2">墨水经典 · 深色</span>
+      <h3>抗老化完整课 · 力量训练×超慢跑×营养配合</h3>
+      <p class="desc">同墨水经典风格，深色背景基调。对比度更高，适合暗光环境或投影展示。</p>
+      <span class="arrow">进入浏览 →</span>
+    </a>
+
+    <a class="card" href="v3-swiss/">
+      <span class="tag tag-swiss">瑞士国际主义</span>
+      <h3>抗老化完整课 · IKB Swiss</h3>
+      <p class="desc">瑞士国际主义风格，无衬线 + 网格点阵 + 克莱因蓝高亮。极简理性，适合专业培训场景。</p>
+      <span class="arrow">进入浏览 →</span>
+    </a>
+  </div>
+
+  <div class="footer">Hosted on GitHub Pages · 无需备案 · 随时随地打开</div>
+</body>
+</html>
