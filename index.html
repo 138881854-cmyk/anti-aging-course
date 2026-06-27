@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>抗老化完整课 · PPT 合集</title>
+<title>21天健康系统 · PPT 合集</title>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   body {
     font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
     background: #0d0d0d;
-    color: #e0e0e0;
+    color: #e8e8e8;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,48 +18,42 @@
   }
   .header {
     text-align: center;
-    max-width: 640px;
+    max-width: 720px;
     margin-bottom: 48px;
   }
   .header h1 {
-    font-size: 2rem;
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
     font-weight: 700;
     letter-spacing: 0.04em;
-    background: linear-gradient(135deg, #c4a574, #e8d5b7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #f2dfbd;
     margin-bottom: 12px;
   }
   .header p {
-    color: #808080;
-    font-size: 0.92rem;
-    line-height: 1.7;
+    color: #9b9b9b;
+    font-size: 0.94rem;
+    line-height: 1.8;
   }
   .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
-    max-width: 1060px;
+    max-width: 1120px;
     width: 100%;
   }
   .card {
-    background: #1a1a1a;
-    border: 1px solid #2a2a2a;
+    background: #191919;
+    border: 1px solid #2c2c2c;
     border-radius: 16px;
-    padding: 32px 28px 28px;
+    padding: 30px 28px 26px;
     transition: border-color 0.25s, transform 0.25s;
-    cursor: pointer;
     text-decoration: none;
     color: inherit;
     display: flex;
     flex-direction: column;
+    min-height: 220px;
   }
-  .card:hover {
-    border-color: #c4a574;
-    transform: translateY(-2px);
-  }
-  .card .tag {
+  .card:hover { border-color: #c4a574; transform: translateY(-2px); }
+  .tag {
     display: inline-block;
     font-size: 0.72rem;
     font-weight: 600;
@@ -70,103 +64,99 @@
     margin-bottom: 16px;
     width: fit-content;
   }
-  .tag-ink     { background: #1a2a1a; color: #7ab87a; }
-  .tag-ink2    { background: #2a1a1a; color: #b87a7a; }
-  .tag-swiss   { background: #1a1a2a; color: #7a7ab8; }
-  .tag-health  { background: #102421; color: #78e0c0; }
-  .tag-core    { background: #241c10; color: #f5b84b; }
+  .tag-ink { background: #1a2a1a; color: #7ab87a; }
+  .tag-ink2 { background: #2a1a1a; color: #b87a7a; }
+  .tag-swiss { background: #111b3d; color: #8fb1ff; }
+  .tag-health { background: #102421; color: #78e0c0; }
+  .tag-core { background: #241c10; color: #f5b84b; }
   .tag-stage-blue { background: #101c3a; color: #8fb1ff; }
   .tag-stage-forest { background: #13251a; color: #b8d8a8; }
   .tag-stage-orange { background: #2c160b; color: #ffad83; }
   .card h3 {
-    font-size: 1.12rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 650;
     margin-bottom: 8px;
     line-height: 1.5;
   }
-  .card .desc {
-    font-size: 0.82rem;
-    color: #909090;
-    line-height: 1.7;
+  .desc {
+    font-size: 0.84rem;
+    color: #999;
+    line-height: 1.75;
     flex: 1;
   }
-  .card .arrow {
+  .arrow {
     margin-top: 20px;
     color: #c4a574;
-    font-size: 0.85rem;
-    font-weight: 500;
+    font-size: 0.86rem;
+    font-weight: 600;
   }
-  .footer {
-    margin-top: 64px;
-    color: #555;
-    font-size: 0.78rem;
-  }
+  .footer { margin-top: 64px; color: #5d5d5d; font-size: 0.78rem; }
 </style>
 </head>
 <body>
   <div class="header">
-    <h1>杨泽言健康课程 · PPT 合集</h1>
-    <p>抗老化完整课 × 21天健康操作系统<br>点击卡片进入全屏浏览，适合远程分享与现场演示</p>
+    <h1>21天健康系统 · PPT 合集</h1>
+    <p>抗老化完整课与 21 天健康系统相关演示稿。点击卡片进入全屏浏览，适合远程分享与现场演示。</p>
   </div>
 
   <div class="cards">
     <a class="card" href="v1-ink/">
       <span class="tag tag-ink">墨水经典 · 墨绿</span>
-      <h3>抗老化完整课 · 力量训练×超慢跑×营养配合</h3>
-      <p class="desc">电子杂志 × 电子墨水风格，衬线字体 + 流体背景 + 暖色调。适合沉稳大气的正式分享场景。</p>
-      <span class="arrow">进入浏览 →</span>
+      <h3>抗老化完整课 · 力量训练、超慢跑、营养配合</h3>
+      <p class="desc">电子杂志与电子墨水风格，衬线字体、流体背景和暖色调，适合沉稳正式的分享场景。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="v2-ink-dark/">
       <span class="tag tag-ink2">墨水经典 · 深色</span>
-      <h3>抗老化完整课 · 力量训练×超慢跑×营养配合</h3>
-      <p class="desc">同墨水经典风格，深色背景基调。对比度更高，适合暗光环境或投影展示。</p>
-      <span class="arrow">进入浏览 →</span>
+      <h3>抗老化完整课 · 深色版</h3>
+      <p class="desc">同一套内容的深色基调版本，对比度更高，适合暗光环境或投影展示。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="v3-swiss/">
       <span class="tag tag-swiss">瑞士国际主义</span>
       <h3>抗老化完整课 · IKB Swiss</h3>
-      <p class="desc">瑞士国际主义风格，无衬线 + 网格点阵 + 克莱因蓝高亮。极简理性，适合专业培训场景。</p>
-      <span class="arrow">进入浏览 →</span>
+      <p class="desc">无衬线字体、网格点阵和克莱因蓝高亮。强调理性、专业和训练感。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="health-system-sales-ppt-final/">
-      <span class="tag tag-health">最终版 · 399 社群</span>
-      <h3>21天健康操作系统 · 首批社群</h3>
-      <p class="desc">按“为什么难、为什么单一、为什么需要系统、为什么我们有效、能带来什么改变、为什么现在加入”重排的最终版。</p>
-      <span class="arrow">进入浏览 →</span>
+      <span class="tag tag-health">最终版 · 21天社群</span>
+      <h3>21天健康系统 · 首批社群完整销讲版</h3>
+      <p class="desc">按“为什么难、为什么单一方案不够、为什么需要系统、我们如何解决、现在加入的权益”重排的完整版本。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="health-system-sales-ppt-v2/">
-      <span class="tag tag-core">V2 · 核心方案版</span>
-      <h3>21天健康操作系统 · 超慢跑×力量×BDNF</h3>
-      <p class="desc">在最终版基础上新增三页解决方案核心：超慢跑启动有氧系统，力量训练重建肌肉引擎，BDNF解释运动对大脑的正反馈。</p>
-      <span class="arrow">进入浏览 →</span>
+      <span class="tag tag-core">V2 · 核心机制版</span>
+      <h3>21天健康系统 · 超慢跑、力量、BDNF</h3>
+      <p class="desc">在完整版本基础上，新增超慢跑、力量训练和 BDNF 三页核心解决方案。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="health-system-stage-10-blue/">
-      <span class="tag tag-stage-blue">舞台10页 · 瑞士蓝</span>
-      <h3>21天健康系统 · 大型舞台压缩版</h3>
-      <p class="desc">把24页版本压缩成10页舞台演讲结构：痛点更狠，机制更短，399首批买断页更有冲击力。</p>
-      <span class="arrow">进入浏览 →</span>
+      <span class="tag tag-stage-blue">舞台12页 · 瑞士蓝</span>
+      <h3>21天健康系统 · 大舞台重做版</h3>
+      <p class="desc">重新基于健康 OS 知识库压缩为 12 页，强化真实痛点、系统机制、首批权益和 399 买断页。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="health-system-stage-10-forest/">
-      <span class="tag tag-stage-forest">舞台10页 · 森林墨</span>
+      <span class="tag tag-stage-forest">舞台12页 · 森林墨</span>
       <h3>21天健康系统 · 电子杂志版</h3>
-      <p class="desc">电子杂志 × 森林墨审美，更像高端生活方式健康手册，适合沉稳、有质感的现场表达。</p>
-      <span class="arrow">进入浏览 →</span>
+      <p class="desc">同一套大舞台内容，换成森林墨与衬线字体，更像高端健康生活方式手册。</p>
+      <span class="arrow">进入浏览</span>
     </a>
 
     <a class="card" href="health-system-stage-10-orange/">
-      <span class="tag tag-stage-orange">舞台10页 · 安全橙</span>
+      <span class="tag tag-stage-orange">舞台12页 · 安全橙</span>
       <h3>21天健康系统 · 安全橙瑞士版</h3>
-      <p class="desc">瑞士国际主义 × 安全橙，强化警示、转折和现场决策感，更适合制造紧迫与行动冲击。</p>
-      <span class="arrow">进入浏览 →</span>
+      <p class="desc">同一套大舞台内容，安全橙强调警示、转折和现场决策感。</p>
+      <span class="arrow">进入浏览</span>
     </a>
   </div>
 
-  <div class="footer">Hosted on GitHub Pages · 无需备案 · 随时随地打开</div>
+  <div class="footer">Hosted on GitHub Pages · 随时打开 · 横向翻页</div>
 </body>
 </html>
